@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Jua', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+  font-family: 'Grand Hotel', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: normal;
+  margin-top: 50px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border-color: #CDF0EA;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 10%;
+  margin: 60px auto;
+}
+
+p {
+  margin-bottom: 30px;
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin: auto 5px auto 5px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.middle-container {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 10%;
+  bottom: 40%;
+}
+
+.house {
+  margin-top: 30px;
+}
+
+.profile {
+  margin: 50px auto 20px auto;
+}
+
+.소개 {
+  width: 40%;
+  margin: auto;
+}
+
+.kyoongee {
+  margin: 0;
+  margin-right: 30px;
+  border-radius: 30%;
+  float: left;
+  overflow: auto;
+  width: 35%;
+  height: 35%;
+}
+
+.kyoong {
+  margin: 0;
+  margin-left: 30px;
+  border-radius: 30%;
+  float: right;
+  overflow: auto;
+  width: 43%;
+  height: 43%;
+}
+
+.skill-row {
+  width: 500px;
+  margin: 100px auto 155px auto;
+  text-align: left;
+}
+
+.credit {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.btn {
+  background: #25c9cf;
+  background-image: linear-gradient(to bottom, #25c9cf, #11999E);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 15px;
+  font-family: 'Jua', sans-serif;
+  color: #fffcff;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #41e5eb;
+  background-image: linear-gradient(to bottom, #41e5eb, #32a4a8);
+  text-decoration: none;
+}
